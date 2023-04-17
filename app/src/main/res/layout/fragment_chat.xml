@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    tools:context=".ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <!--
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chats"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>-->
+
+    <!--<ImageView
+        android:id="@+id/img_test"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_width="95dp"
+        android:layout_height="96dp"/>-->
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:hint="Enter Name"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="175dp"
+        android:layout_height="61dp"
+        android:layout_marginLeft="94dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Pass" />
+</LinearLayout>
