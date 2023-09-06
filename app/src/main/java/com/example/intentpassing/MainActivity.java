@@ -27,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
         text2=findViewById(R.id.ET_LastName);
 
         send_button.setOnClickListener(view -> {
-            String str1=text1.getText().toString();
+            String str1=text1.getText().toString();  //Text file
+
             String str2=text2.getText().toString();
 
             Intent intent=new Intent(MainActivity.this,ReflectingData.class);
